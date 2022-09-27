@@ -11,7 +11,7 @@ function PlaceForm() {
   }
 
   return (
-    <ScrollView style={styles.form}>
+    <ScrollView contentContainerStyle={{flexGrow:1,padding: 24,}} >
       <View>
         <Text style={styles.label}>Title</Text>
         <TextInput
